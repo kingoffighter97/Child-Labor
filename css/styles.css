@@ -1,5 +1,5 @@
 body {
-	background: url("http://sustainapax.com/wp-content/uploads/2014/08/picture-314-1.jpg") no-repeat fixed center; 
+	background: url("Free The Children.mp4") no-repeat fixed center; 
 }
 .navbar-header,
 .navbar-header img,
@@ -19,3 +19,21 @@ body {
 .jumbotron {
 	background: transparent;
 }
+
+
+video#bgvid {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(http://blogs.bootsnall.com/corrieguatemala/files/2008/07/100_0181.JPG) no-repeat;
+background-size: cover;
+}
+
+
