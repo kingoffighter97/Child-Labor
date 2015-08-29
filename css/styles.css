@@ -1,9 +1,18 @@
-body {
-<<<<<<< HEAD
-	background: url("Free The Children.mp4") no-repeat fixed center; 
-=======
-	background-color:#FFF; 
->>>>>>> origin/master
+#bgvid video{
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(Free The Children.mp4) no-repeat;
+background-size: cover;
+}
+
 }
 .navbar-header,
 .navbar-header img,
@@ -23,21 +32,4 @@ body {
 .jumbotron {
 	background: transparent;
 }
-
-
-video#bgvid {
-position: fixed;
-top: 50%;
-left: 50%;
-min-width: 100%;
-min-height: 100%;
-width: auto;
-height: auto;
-z-index: -100;
--webkit-transform: translateX(-50%) translateY(-50%);
-transform: translateX(-50%) translateY(-50%);
-background: url(http://blogs.bootsnall.com/corrieguatemala/files/2008/07/100_0181.JPG) no-repeat;
-background-size: cover;
-}
-
 
