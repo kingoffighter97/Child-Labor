@@ -16,97 +16,103 @@
 	<script language="javascript" type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-default">
-  		<div class="container-fluid">
-			<div class="navbar-header">
-      			<a class="navbar-brand" href="#"><img src="images/testing-logo.png" /></a>
-    		</div>
+	<div id = "everything">
+		<nav class="navbar navbar-default">
+	  		<div class="container-fluid">
+				<div class="navbar-header">
+	      			<a class="navbar-brand" href="#"><img src="images/testing-logo.png" /></a>
+	    		</div>
 
-    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      			<ul class="nav navbar-nav">
-			        <li class="active"><a href="#">HOME<span class="sr-only">(current)</span></a></li>
-			        <li><a href="#about">ABOUT</a></li>
-			        <li><a href="#team">OUR TEAM</a></li>
-			        <li><a href="#donate">DONATE</a></li>
-			        <li><a href="#contact">CONTACT</a></li>
-			      </ul>
+	    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      			<ul class="nav navbar-nav">
+				        <li class="active"><a href="#">HOME<span class="sr-only">(current)</span></a></li>
+				        <li><a href="#about">ABOUT</a></li>
+				        <li><a href="#team">OUR TEAM</a></li>
+				        <li><a href="#donate">DONATE</a></li>
+				        <li><a href="#contact">CONTACT</a></li>
+				      </ul>
+				</div>
+	  		</div>
+		
+		</nav>
+
+	<style>
+		h1{
+		position:center; 
+	}
+	</style>
+	<div class="wrapper">
+
+	<div class="page-header">
+	  		<div class="video">
+	  			<video autoplay loop poster:"Add image here" id="bgvid" autoplay>
+		  		<source src="Free.mp4" type="video/mp4">
+		  		Your browser does not support the video tag
+				</video>
 			</div>
-  		</div>
-	
-	</nav>
-
-<style>
-	h1{
-	position:center; 
-}
-</style>
-<div class="wrapper">
-
-<div class="page-header">
-  			<div class="video jumbotron">
-  			<video autoplay loop poster:"Add image here" id="bgvid" autoplay>
-	  		<source src="Free.mp4" type="video/mp4">
-	  		Your browser does not support the video tag
-		</video>
-  <h1><center>No Sweat!</center></h1>
-  <p><center>Dont sweat it ;)</center></p>
-  <p><center><a class="btn btn-primary btn-lg" href="#" role="button">Sweat Donation</a></center></p>
-</div>
-		<p>100% of your donation will go to the Free The Children Foundation to help eliminate child labour!</p>
-		<embed scr="https://youtu.be/-RiUHRCK0yw"/>
-		</div>
-	<div class="jumbotron" id="about">
-		<h1>Here are the facts</h1>
-  		<ul>
-  			<li><bold>218 million</bold> children aged 5 - 17 are involved in child labor worldwide.</li>
-  			<li>Children below the age of 18 years represent between <bold>40 to 50 </bold> percent of all forced labor victims.</li>
-  		</ul>
+			<div class="text jumbotron">
+				  <h1>No Sweat!</h1>
+				  <p>Dont sweat it ;)</p>
+				  <p><a class="btn btn-primary btn-lg" href="#" role="button">Sweat Donation</a></p>
+				  <p>100% of your donation will go to the Free The Children Foundation to help eliminate child labour!</p>
+	  		</div>
 	</div>
-
-	<div id="team">
-		<div class="team-header">
-			<h1>Our team</h1>
-			<br>
-			<h4>Behold, the Saviors!</h4>
+			
+			<embed scr="https://youtu.be/-RiUHRCK0yw"/>
+			</div>
+		<div class="jumbotron" id="about">
+			<h1>Here are the facts</h1>
+	  		<ul>
+	  			<li><bold>218 million</bold> children aged 5 - 17 are involved in child labor worldwide.</li>
+	  			<li>Children below the age of 18 years represent between <bold>40 to 50 </bold> percent of all forced labor victims.</li>
+	  		</ul>
 		</div>
-		<div class="member-wrapper row">
-			<div class="col-md-3 col-sm-6 col-xs-12"><img class="member" src="images/cotapher.jpg" /></div>
-			<div class="col-md-3 col-sm-6 col-xs-12"><img class="member" src="images/bobby.jpg" /></div>
-			<div class="col-md-3 col-sm-6 col-xs-12"><img class="member" src="images/rufael.jpg" /></div>
-			<div class="col-md-3 col-sm-6 col-xs-12"><img class="member" src="images/kingstan.jpg" /></div>
+
+		<div id="team">
+			<div class="team-header">
+				<h1>Our team</h1>
+				<br>
+				<h4>Behold, the Saviors!</h4>
+			</div>
+			<div class="member-wrapper row">
+				<div class="col-md-3 col-sm-6 col-xs-12"><img class="member" src="images/cotapher.jpg" /></div>
+				<div class="col-md-3 col-sm-6 col-xs-12"><img class="member" src="images/bobby.jpg" /></div>
+				<div class="col-md-3 col-sm-6 col-xs-12"><img class="member" src="images/rufael.jpg" /></div>
+				<div class="col-md-3 col-sm-6 col-xs-12"><img class="member" src="images/kingstan.jpg" /></div>
+			</div>
 		</div>
-	</div>
-<div class="jumbotron">
-	
-	<h1>Contact</h1>
-	<div id="contact">
-		<form id="contact_form" action="mailto:eclabour@gmail.com" method="POST" enctype="multipart/form-data">
-			<div class="row">
-				<label for="name">Your name:</label><br />
-				<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-			</div>
-			<div class="row">
-				<label for="email">Your email:</label><br />
-				<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-			</div>
-			<div class="row">
-				<label for="message">Your message:</label><br />
-				<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-			</div>
-			<input id="submit_button" type="submit" value="Send email"/>
-		</form>	
+	<div class="jumbotron">
+		
+		<h1>Contact</h1>
+		<div id="contact">
+			<form id="contact_form" action="mailto:eclabour@gmail.com" method="POST" enctype="multipart/form-data">
+				<div class="row">
+					<label for="name">Your name:</label><br />
+					<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+				</div>
+				<div class="row">
+					<label for="email">Your email:</label><br />
+					<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+				</div>
+				<div class="row">
+					<label for="message">Your message:</label><br />
+					<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+				</div>
+				<input id="submit_button" type="submit" value="Send email"/>
+			</form>	
 
-		<style>
-		form{
-			border-color:"blue";
-			border-radius:25px;
-			position:relative;
-			left:15px;
-		}
-		</style>
+			<style>
+			form{
+				border-color:"blue";
+				border-radius:25px;
+				position:relative;
+				left:15px;
+			}
+			</style>
 
+		</div>
+		
 	</div>
-	
-</div>
+	</div>
 </body>
 </html>
