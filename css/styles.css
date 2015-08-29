@@ -20,6 +20,9 @@ body {
 .jumbotron {
 	background: transparent;
 }
+.member {
+	width:100%;
+}
 video#bgvid {
 position: fixed;
 top: 50%;
