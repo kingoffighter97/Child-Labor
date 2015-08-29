@@ -1,4 +1,5 @@
 
+body {
 
 }
 .navbar-header,
@@ -19,7 +20,6 @@
 .jumbotron {
 	background: transparent;
 }
-
 video#bgvid {
 position: fixed;
 top: 50%;
@@ -35,5 +35,4 @@ background: url(http://blogs.bootsnall.com/corrieguatemala/files/2008/07/100_018
 background-size: cover;
 -webkit-filter: opacity(50%);
 }
-
 
