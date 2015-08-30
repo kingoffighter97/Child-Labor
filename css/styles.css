@@ -36,7 +36,7 @@ video#bgvid {
 	z-index: -100;
 	width:100%;
 	height:auto;
-	-webkit-filter: blur(500%);
+	-webkit-filter: opacity(50%);
 	position: absolute;
 	left:0;
 	top:0;
