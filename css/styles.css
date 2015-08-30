@@ -6,8 +6,10 @@ body {
 }
 .navbar,
 .navbar-default {
+	width: 100%;
 	margin: 0;
 	padding:0;
+	position: fixed;
 }
 .navbar-collapse,
 .navbar-header,
