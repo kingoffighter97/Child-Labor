@@ -6,8 +6,7 @@ body {
 }
 .navbar,
 .navbar-default {
-	width: 100%
-	;
+	width: 100%;
 	margin: 0;
 	padding:0;
 	position: fixed;
@@ -20,6 +19,9 @@ body {
 	height: 50px;
 	padding: 0;
 	margin: 0;
+}
+.navbar-header img {
+	width: auto;
 }
 .navbar-nav,
 .navbar-collapse {
