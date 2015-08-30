@@ -21,8 +21,9 @@ body {
 	padding: 0;
 	margin: 0;
 }
-.navbar-nav {
-	margin: 0 50px;
+.navbar-nav,
+.navbar-collapse {
+	float:right;
 }
 .navbar-nav li a {
 	padding-left: 50px;
@@ -56,19 +57,12 @@ video#bgvid {
 	padding:0;
 	margin:0;
 	overflow: hidden;
-	z-index:1;
+	z-index:-50;
 	position: relative;
 }
 .text {
-	vertical-align: middle;
 	padding:0;
-	margin: auto 0;
-}
-
-#Center {
-
-	margin: auto;
-
+	margin: 20% 0 0 0;
 }
 
 img {
