@@ -20,6 +20,9 @@ body {
 	padding: 0;
 	margin: 0;
 }
+.wrapper {
+	margin: 0 10%;
+}
 .navbar-header img {
 	width: auto;
 }
