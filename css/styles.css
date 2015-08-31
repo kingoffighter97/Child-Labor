@@ -62,7 +62,7 @@ video#bgvid {
 	padding:0;
 	margin:0;
 	overflow: hidden;
-	z-index:-50;
+	z-index:0;
 	position: relative;
 }
 .text {
