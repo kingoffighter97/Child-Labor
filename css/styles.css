@@ -4,8 +4,12 @@ body {
 	padding:0;
 	overflow-x:hidden;
 }
+.empty {
+	height:50px;
+}
 .navbar,
 .navbar-default {
+	z-index: 1;
 	width: 100%;
 	margin: 0;
 	padding:0;
