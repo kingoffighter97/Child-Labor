@@ -7,5 +7,9 @@ $( document ).ready(function() {
 		var width = $('.member').width();
 		$('.member').css({'height':width+'px'});
 	});
-
+	$('#about').withinviewport(function() {
+		alert('something');
+		$('#2').addClass('active');
+		$('#1').removeClass('active');
+	});
 });
